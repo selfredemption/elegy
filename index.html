@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>天梯挽歌 ELEVATOR ELEGY · 作品介绍</title>
+<meta name="description" content="《天梯挽歌 ELEVATOR ELEGY》——AI 动画短片毕业设计。一个为逃避死亡而冷冻自己的人，在五百年后醒来，被登记为 7C 类遗存体，并被迫在天梯的尽头做出选择。">
+<meta name="theme-color" content="#040507">
+<meta property="og:type" content="website">
+<meta property="og:title" content="天梯挽歌 ELEVATOR ELEGY">
+<meta property="og:description" content="永生不是神话。是选择。">
+<meta property="og:image" content="assets/still/og.jpg">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preload" as="image" href="assets/still/hero.jpg">
+<link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body class="is-loading">
+
+<div class="grain" aria-hidden="true"></div>
+<div class="scan" aria-hidden="true"></div>
+<div class="progress" aria-hidden="true"><i></i></div>
+
+<div class="boot" id="boot" aria-hidden="true">
+  <div class="boot__mark">天梯挽歌</div>
+  <div class="boot__bar"><i></i></div>
+  <div class="boot__meta mono">ELEVATOR ELEGY&nbsp;&nbsp;/&nbsp;&nbsp;05′51″&nbsp;&nbsp;/&nbsp;&nbsp;1920×1080</div>
+</div>
+
+<header class="bar">
+  <a class="bar__brand" href="#hero">
+    <span class="bar__glyph">天</span>
+    <span class="bar__name">天梯挽歌<em>ELEVATOR ELEGY</em></span>
+  </a>
+  <nav class="bar__nav" aria-label="章节导航">
+    <a href="#prologue" data-nav="prologue">序</a>
+    <a href="#ladder" data-nav="ladder">天梯</a>
+    <a href="#cast" data-nav="cast">人物</a>
+    <a href="#motifs" data-nav="motifs">意象</a>
+    <a href="#locations" data-nav="locations">场景</a>
+    <a href="#structure" data-nav="structure">结构</a>
+    <a href="#making" data-nav="making">制作</a>
+    <a href="#film" data-nav="film">正片</a>
+  </nav>
+  <a class="bar__cta" href="#film">观看正片<span>05:51</span></a>
+  <button class="bar__menu" id="menuBtn" aria-label="打开章节菜单" aria-controls="mnav" aria-expanded="false">
+    <i></i><i></i>
+  </button>
+</header>
+
+<nav class="mnav" id="mnav" aria-label="章节导航" aria-hidden="true">
+  <ul class="mnav__list">
+    <li><a href="#prologue"><span class="mono">01</span>序章</a></li>
+    <li><a href="#ladder"><span class="mono">02</span>天梯剖面</a></li>
+    <li><a href="#cast"><span class="mono">03</span>人物</a></li>
+    <li><a href="#motifs"><span class="mono">04</span>意象</a></li>
+    <li><a href="#locations"><span class="mono">05</span>场景</a></li>
+    <li><a href="#structure"><span class="mono">06</span>结构</a></li>
+    <li><a href="#making"><span class="mono">07</span>制作</a></li>
+    <li><a href="#film"><span class="mono">08</span>正片</a></li>
+  </ul>
+  <p class="mnav__foot mono">ELEVATOR ELEGY · 05′51″ · 1920×1080</p>
+</nav>
+
+<main>
+
+<!-- ═══════════ HERO ═══════════ -->
+<section class="hero" id="hero">
+  <div class="hero__media">
+    <picture>
+      <source media="(max-width:720px)" srcset="assets/still/hero-portrait.jpg">
+      <img src="assets/still/hero.jpg" alt="林渊站在观景穹窗前，地球在下方缓缓转动，绫在他身后" fetchpriority="high">
+    </picture>
+  </div>
+  <div class="hero__veil" aria-hidden="true"></div>
+  <div class="hero__inner">
+    <p class="hero__eyebrow mono"><span class="dot"></span>毕业设计作品 / AI 动画短片</p>
+    <h1 class="hero__title"><span>天</span><span>梯</span><span>挽</span><span>歌</span></h1>
+    <p class="hero__en">ELEVATOR <em>ELEGY</em></p>
+    <p class="hero__tag">永生不是神话。<b>是选择。</b></p>
+    <dl class="hero__meta mono">
+      <div><dt>片长</dt><dd>05′51″</dd></div>
+      <div><dt>画幅</dt><dd>1920 × 1080</dd></div>
+      <div><dt>帧率</dt><dd>25 fps</dd></div>
+      <div><dt>年份</dt><dd>2026</dd></div>
+    </dl>
+  </div>
+  <div class="hero__foot mono">
+    <span>SCROLL TO ASCEND</span>
+    <span class="hero__foot-line"></span>
+    <span>0 m</span>
+  </div>
+</section>
+
+<!-- ═══════════ 01 序章 ═══════════ -->
+<section class="sec prologue" id="prologue">
+  <div class="wrap">
+    <header class="sec__head reveal">
+      <span class="sec__idx mono">01<a>序章</a>PROLOGUE</span>
+      <h2 class="sec__title">一个人为了不死而睡去，<br>醒来时，世界已经不需要人了。</h2>
+    </header>
+
+    <div class="prologue__grid">
+      <div class="prologue__copy reveal">
+        <p class="lede">林渊在四十五岁那年签下深低温保存合同，成为当代第七位委托人。五百年后，他在赤道冻土层下醒来，被一个自称「天极文明」的后代文明登记为 <b>L-Y1999 号遗存体</b>——一块七 C 类意识体标本。</p>
+        <p>他们给了他两个选项：把意识归档，获得理论上的永久存续；或者拒绝，在六到十八个月里，作为一个会死的人活下去。</p>
+        <blockquote class="pull">
+          <p>「永生不是神话。是选择。」</p>
+          <cite class="mono">旧时代的广告词 — 如今像一句墓志铭</cite>
+        </blockquote>
+        <p class="prologue__note">这不是一部关于星际战争的短片。它是一场关于「何为生命」的内心旅程：当下人类对效率的追求，与加速主义对时代的推进，是否也在把人一点点变成档案？</p>
+      </div>
+
+      <figure class="prologue__still reveal">
+        <img src="assets/still/sign.jpg" alt="一支钢笔在合同末尾写下「林渊」两个字" loading="lazy">
+        <figcaption class="mono">剧照 / 04′20″ — 合同末尾，他写下自己的名字</figcaption>
+      </figure>
+    </div>
+
+    <ul class="stats reveal">
+      <li><b>05:51</b><span class="mono">片长 / RUNTIME</span></li>
+      <li><b>500</b><span class="mono">年 / 封存时长</span></li>
+      <li><b>57</b><span class="mono">场 / 分镜场次</span></li>
+      <li><b>3</b><span class="mono">幕 / 三幕结构</span></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ═══════════ 02 天梯剖面 ═══════════ -->
+<section class="ladder" id="ladder">
+  <div class="ladder__sticky">
+    <div class="ladder__stage">
+      <figure class="ladder__frame is-on" data-frame="0">
+        <img src="assets/scene/cryoroom.jpg" alt="废弃冷冻站的冷冻室，冷白灯线亮起，白雾从舱盖缝隙溢出" fetchpriority="low">
+      </figure>
+      <figure class="ladder__frame" data-frame="1">
+        <img src="assets/scene/base.jpg" alt="赤道天梯基座，九根碳纳米复合缆索直插苍穹" fetchpriority="low">
+      </figure>
+      <figure class="ladder__frame" data-frame="2">
+        <img src="assets/scene/archive.jpg" alt="中轨换乘环的标本库，白色长廊两侧陈列着标本" fetchpriority="low">
+      </figure>
+      <figure class="ladder__frame" data-frame="3">
+        <img src="assets/scene/dome.jpg" alt="同步轨道站的全景观景穹顶，地球在下方" fetchpriority="low">
+      </figure>
+      <figure class="ladder__frame" data-frame="4">
+        <img src="assets/still/ark.jpg" alt="L2 拉格朗日点的方舟，天极文明的核心居住结构" fetchpriority="low">
+      </figure>
+      <div class="ladder__shade" aria-hidden="true"></div>
+    </div>
+
+    <div class="ladder__hud">
+      <span class="eyebrow mono">02 — 天梯剖面 / THE LADDER</span>
+
+      <div class="altimeter">
+        <div class="altimeter__unit mono" id="altUnit">ALTITUDE · m</div>
+        <div class="altimeter__num" id="altNum">0</div>
+        <div class="altimeter__name" id="altName">赤道冻土层 · 废弃冷冻站</div>
+      </div>
+
+      <div class="ladder__ticks" id="ticks" role="tablist" aria-label="天梯站点">
+        <button class="tick is-active" data-goto="0" role="tab"><i></i><span class="mono">0 m</span><b>冷冻站</b></button>
+        <button class="tick" data-goto="1" role="tab"><i></i><span class="mono">0 m</span><b>天梯基座</b></button>
+        <button class="tick" data-goto="2" role="tab"><i></i><span class="mono">400 km</span><b>换乘环</b></button>
+        <button class="tick" data-goto="3" role="tab"><i></i><span class="mono">35,786 km</span><b>同步站</b></button>
+        <button class="tick" data-goto="4" role="tab"><i></i><span class="mono">150 万 km</span><b>方舟</b></button>
+      </div>
+    </div>
+
+    <div class="ladder__panel">
+      <div class="stop is-active" data-stop="0">
+        <p class="stop__coord mono">坐标 0 m · 1G · 深低温设施</p>
+        <h3>冷却了五百年的醒来</h3>
+        <p>最后一批为「躲避死亡」而付费的人，都睡在这样的地下。他睁眼时，先感到的不是光，是重量——五百年没有承受过的地球引力，把内脏向下拽拉。</p>
+        <p class="stop__note mono">场景 · 冷冻室 / 冷冻站通道</p>
+      </div>
+      <div class="stop" data-stop="1">
+        <p class="stop__coord mono">九根碳纳米复合缆索 · 旧时代遗迹</p>
+        <h3>一条只通往离开的路</h3>
+        <p>基座从冻土里长出九根缆索，直插苍穹。旧时代的人以「上行」为文明的方向；新人类把这条线留了下来，当作纪念碑，也当作货运通道。</p>
+        <p class="stop__note mono">场景 · 天梯基座 / 上行轿厢</p>
+      </div>
+      <div class="stop" data-stop="2">
+        <p class="stop__coord mono">坐标 400 km · 微重力 · 中转枢纽</p>
+        <h3>他被登记为 L-Y1999</h3>
+        <p>标本库里，他的冷冻舱与别的标本并排陈列。所谓「意识归档」的永生，只是把人的意识冻结成一段不再产生新数据的静态档案——一种功能性的消亡。</p>
+        <p class="stop__note mono">场景 · 标本库 / 神经映射舱 / 中环换乘舱</p>
+      </div>
+      <div class="stop" data-stop="3">
+        <p class="stop__coord mono">坐标 35,786 km · 微重力 · 终点站</p>
+        <h3>两个选项，都在星空里</h3>
+        <p>归档，得到理论上的永久存续；拒绝，六到十八个月内，身体会因无法适应太空而自然死亡。穹顶的玻璃之外，地球在下，方舟在远处。</p>
+        <p class="stop__note mono">场景 · 穹顶 / 空码头</p>
+      </div>
+      <div class="stop" data-stop="4">
+        <p class="stop__coord mono">拉格朗日点 L2 · 约 1,500,000 km</p>
+        <h3>全片只以轮廓出现的家</h3>
+        <p>新人类住在那儿，认为重力、泥土与不可控的自然是不洁的。林渊从没去过方舟，他只在穹顶看它——像一个他不再被邀请的未来。</p>
+        <p class="stop__note mono">全片仅以轮廓与远方尺度出现</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ 03 人物 ═══════════ -->
+<section class="sec cast" id="cast">
+  <div class="wrap">
+    <header class="sec__head reveal">
+      <span class="sec__idx mono">03<a>人物</a>CAST</span>
+      <h2 class="sec__title">三个人，一句话，<br>和一个不肯回答的问题。</h2>
+    </header>
+
+    <article class="cast__item reveal">
+      <div class="cast__media">
+        <div class="plate">
+          <img src="assets/char/linyuan-portrait.jpg" alt="林渊在穹窗前的侧脸，地球在他身后" loading="lazy">
+          <span class="plate__tag mono">A 档 · 遗存体</span>
+        </div>
+        <div class="plate plate--sub plate--sheet">
+          <img src="assets/char/linyuan-suit-960.jpg" alt="林渊造型设定：黑色正式西装与浅棕风衣三视图" loading="lazy">
+          <span class="plate__tag mono">B 档 · 巅峰 / 设定</span>
+        </div>
+      </div>
+      <div class="cast__body">
+        <span class="cast__idx mono">01 / 03</span>
+        <h3 class="cast__name">林渊<em>LIN YUAN</em></h3>
+        <p class="cast__role mono">遗存体 L-Y1999 · 七 C 类意识体</p>
+        <p class="cast__quote">「我是。」</p>
+        <p class="cast__desc">四十五岁。手背上有一块旧的晒痕，像半个太阳——那是旧时代留下的唯一证据。他记得重力的重量，记得广告词的锋利，也记得自己当年为什么签下那份合同。</p>
+        <dl class="cast__spec mono">
+          <div><dt>年龄</dt><dd>45 岁 · 冻结时</dd></div>
+          <div><dt>封存</dt><dd>约 500 年</dd></div>
+          <div><dt>造型</dt><dd>A 遗存体 / B 巅峰</dd></div>
+        </dl>
+      </div>
+    </article>
+
+    <article class="cast__item cast__item--flip reveal">
+      <div class="cast__media">
+        <div class="plate">
+          <img src="assets/char/ling-portrait.jpg" alt="绫的面部特写，银灰色齐耳短发与蓝色瞳孔" loading="lazy">
+          <span class="plate__tag mono">基础造型</span>
+        </div>
+        <div class="plate plate--sub plate--sheet">
+          <img src="assets/char/ling-sheet-960.jpg" alt="绫的三视图设定：正面、侧面、背面" loading="lazy">
+          <span class="plate__tag mono">三视图 · 1G / 0.0G</span>
+        </div>
+      </div>
+      <div class="cast__body">
+        <span class="cast__idx mono">02 / 03</span>
+        <h3 class="cast__name">绫<em>LING</em></h3>
+        <p class="cast__role mono">天极文明指派引航员 · AI 生命体</p>
+        <p class="cast__quote">「如果我不能回答呢。」</p>
+        <p class="cast__desc">银灰色齐耳短发，面容完美无瑕疵，瞳孔像镜头。语调平直、无情绪，动作精确如程序。她负责解释一切，除了她自己——全片她只做过一件不在程序内的事：在关键时刻，让开半步。</p>
+        <dl class="cast__spec mono">
+          <div><dt>身份</dt><dd>AI 生命体</dd></div>
+          <div><dt>职务</dt><dd>引航员 / 解释者</dd></div>
+          <div><dt>破例</dt><dd>让开了半步</dd></div>
+        </dl>
+      </div>
+    </article>
+
+    <article class="cast__item reveal">
+      <div class="cast__media">
+        <div class="plate">
+          <img src="assets/char/boy-portrait.jpg" alt="新人类少年的雾中轮廓，只能看见没有面孔的剪影" loading="lazy">
+          <span class="plate__tag mono">雾中轮廓</span>
+        </div>
+        <div class="plate plate--sub plate--sheet">
+          <img src="assets/char/boy-sheet-960.jpg" alt="新人类少年的全身剪影三视图" loading="lazy">
+          <span class="plate__tag mono">三视图 · 无正脸</span>
+        </div>
+      </div>
+      <div class="cast__body">
+        <span class="cast__idx mono">03 / 03</span>
+        <h3 class="cast__name">少年<em>THE BOY</em></h3>
+        <p class="cast__role mono">天极文明第七代轨道居民 · 来自方舟</p>
+        <p class="cast__quote">「它为什么会从树上掉下来？」</p>
+        <p class="cast__desc">他是全片唯一没有清晰五官的人——始终是雾中的剪影。他见过重力、见过泥土，却从未见过一片叶子从枝头离开。他问出的问题，AI 回答不了，而林渊用一生作答。</p>
+        <dl class="cast__spec mono">
+          <div><dt>居所</dt><dd>方舟 · L2</dd></div>
+          <div><dt>代际</dt><dd>第七代轨道居民</dd></div>
+          <div><dt>功能</dt><dd>提问者</dd></div>
+        </dl>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- ═══════════ 插曲 · 旧世界的秋天 ═══════════ -->
+<figure class="band">
+  <img src="assets/still/autumn.jpg" alt="闪回：旧世界的秋天，落叶铺满石阶与拱门" loading="lazy">
+  <figcaption class="band__cap">
+    <span class="mono">闪回 / 05′00″ — 旧世界的秋天</span>
+    <p class="band__line">全片唯一有温度的光，<br>出现在他只待过四十五年的那个世界里。</p>
+  </figcaption>
+</figure>
+
+<!-- ═══════════ 04 意象 ═══════════ -->
+<section class="sec motifs" id="motifs">
+  <div class="wrap">
+    <header class="sec__head reveal">
+      <span class="sec__idx mono">04<a>意象</a>MOTIFS</span>
+      <h2 class="sec__title">五件道具，<br>撑起一个不敢直说的主题。</h2>
+      <p class="sec__lede">在《天梯挽歌》里，没有一件道具只是「道具」。它们全部关于同一件事：曾经与土地相连的人，如何被拆解成可存档的数据。</p>
+    </header>
+
+    <div class="motifs__grid">
+      <article class="motif motif--wide reveal">
+        <div class="motif__media"><img src="assets/prop/leafbook.jpg" alt="旧书与压在书页间的干燥枫叶" loading="lazy"></div>
+        <div class="motif__body">
+          <span class="motif__idx mono">M-01</span>
+          <h3>枫叶与旧书</h3>
+          <p>全片唯一的旧世界实物。他合上书，指腹摩挲过叶脉——一个五百年没变过的动作。少年问它为什么掉下来；这个问题里，有重力、有坠落，也有死亡。</p>
+          <p class="motif__line">「它为什么会从树上掉下来？」</p>
+        </div>
+      </article>
+
+      <article class="motif reveal">
+        <div class="motif__media"><img src="assets/prop/leaf.jpg" alt="干燥保存状态的枫叶" loading="lazy"></div>
+        <div class="motif__body">
+          <span class="motif__idx mono">M-02</span>
+          <h3>枫叶 · 干燥保存</h3>
+          <p>最后他把它交给了少年。手掌摊开——曾经握着它的地方，什么也没有留下。</p>
+        </div>
+      </article>
+
+      <article class="motif reveal">
+        <div class="motif__media"><img src="assets/prop/cryopod.jpg" alt="封存状态的冷冻舱" loading="lazy"></div>
+        <div class="motif__body">
+          <span class="motif__idx mono">M-03</span>
+          <h3>冷冻舱</h3>
+          <p>他醒来时它是一个容器；到 400 公里的标本库，他发现自己和它一起成了展品。</p>
+        </div>
+      </article>
+
+      <article class="motif reveal">
+        <div class="motif__media"><img src="assets/prop/chair.jpg" alt="归档程序待启动状态的神经映射椅" loading="lazy"></div>
+        <div class="motif__body">
+          <span class="motif__idx mono">M-04</span>
+          <h3>神经映射椅</h3>
+          <p>永生的入口。坐上去的人不会死，也不会再产生新的数据——白色房间里最安静的那场处决。</p>
+        </div>
+      </article>
+
+      <article class="motif reveal">
+        <div class="motif__media"><img src="assets/prop/plate.jpg" alt="生物档案标本铭牌，七 C 类意识" loading="lazy"></div>
+        <div class="motif__body">
+          <span class="motif__idx mono">M-05</span>
+          <h3>铭牌</h3>
+          <p>生物档案标本 · 七 C 类—意识。几厘米的金属，一个人全部档案的重量。</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ INTERLUDE 字幕卡 ═══════════ -->
+<section class="sec interlude" id="titlecard">
+  <div class="wrap interlude__grid">
+    <figure class="interlude__media reveal">
+      <img src="assets/still/titlecard.jpg" alt="片头字幕卡：取回原本属于他的永生 / TO TAKE BACK HIS IMMORTALITY" loading="lazy">
+      <figcaption class="mono">片头字幕卡 / 01′10″</figcaption>
+    </figure>
+    <div class="interlude__copy reveal">
+      <span class="sec__idx mono">插页<a>版式</a>DESIGN NOTE</span>
+      <h2 class="sec__title">黑底、白字、<br>一处红。</h2>
+      <p>全片几乎不使用图形包装。片名、章节与主题句，都以同一套版式出现：中文行书，英文大写，一个红色的词。红只给最锋利的那几个字——<em>永生</em>、<em>真的算活着</em>、<em>ELEGY</em>。</p>
+      <p class="mono">版式规范 / 中文行书 + 英文大写 + 单一强调色 #C8102E</p>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <div class="theme-cards reveal">
+      <figure><img src="assets/still/theme-1.jpg" alt="片尾字幕卡：存在 不代表存续 / PERSISTENCE IS NOT LIFE" loading="lazy"></figure>
+      <figure><img src="assets/still/theme-2.jpg" alt="片尾字幕卡：继承不只有数据 / INHERITANCE IS NOT ONLY DATA" loading="lazy"></figure>
+      <figure><img src="assets/still/theme-3.jpg" alt="片尾字幕卡：落叶归根 / THE LEAF FALL IT GOES HOME" loading="lazy"></figure>
+    </div>
+    <p class="theme-cards__cap mono">片尾主题卡 / 05′32″ – 05′46″ — 同一套版式在不同主题句上的复用</p>
+  </div>
+</section>
+
+<!-- ═══════════ 05 场景 ═══════════ -->
+<section class="sec locations" id="locations">
+  <div class="wrap wrap--wide">
+    <header class="sec__head reveal">
+      <span class="sec__idx mono">05<a>场景</a>LOCATIONS</span>
+      <h2 class="sec__title">十个空间，<br>从冻土到 150 万公里。</h2>
+      <p class="sec__lede">世界观被拆成十个可以进入的房间。左右拖动，或使用方向键浏览。</p>
+    </header>
+  </div>
+
+  <div class="rail" id="rail" tabindex="0" aria-label="场景图鉴">
+    <div class="rail__track">
+      <figure class="shot">
+        <div class="shot__media"><img src="assets/scene/cryoroom-sm.jpg" srcset="assets/scene/cryoroom.jpg 1920w" sizes="(max-width:720px) 82vw, 780px" alt="冷冻室" loading="lazy" draggable="false"></div>
+        <figcaption><span class="mono">01 · 1G</span><b>冷冻室</b><p>绝对的黑暗，然后一排灯线亮起，冷白。</p></figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="shot__media"><img src="assets/scene/corridor-sm.jpg" srcset="assets/scene/corridor.jpg 1920w" sizes="(max-width:720px) 82vw, 780px" alt="冷冻站通道" loading="lazy" draggable="false"></div>
+        <figcaption><span class="mono">02 · 1G</span><b>冷冻站通道</b><p>五百年过去，走廊还在，人不在。</p></figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="shot__media"><img src="assets/scene/base-sm.jpg" srcset="assets/scene/base.jpg 1920w" sizes="(max-width:720px) 82vw, 780px" alt="天梯基座" loading="lazy" draggable="false"></div>
+        <figcaption><span class="mono">03 · 0 m</span><b>天梯基座</b><p>九根缆索，从冻土直插苍穹。</p></figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="shot__media"><img src="assets/scene/pod-sm.jpg" srcset="assets/scene/pod.jpg 1920w" sizes="(max-width:720px) 82vw, 780px" alt="上行轿厢" loading="lazy" draggable="false"></div>
+        <figcaption><span class="mono">04 · 上行</span><b>上行轿厢</b><p>整部片子里唯一向上运动的东西。</p></figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="shot__media"><img src="assets/scene/transfer-sm.jpg" srcset="assets/scene/transfer.jpg 1920w" sizes="(max-width:720px) 82vw, 780px" alt="中环换乘舱" loading="lazy" draggable="false"></div>
+        <figcaption><span class="mono">05 · 400 km</span><b>中环换乘舱</b><p>微重力：没有上下，只有方向。</p></figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="shot__media"><img src="assets/scene/archive-sm.jpg" srcset="assets/scene/archive.jpg 1920w" sizes="(max-width:720px) 82vw, 780px" alt="标本库" loading="lazy" draggable="false"></div>
+        <figcaption><span class="mono">06 · 400 km</span><b>标本库</b><p>他的舱和别的标本并排陈列。</p></figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="shot__media"><img src="assets/scene/neural-sm.jpg" srcset="assets/scene/neural.jpg 1920w" sizes="(max-width:720px) 82vw, 780px" alt="神经映射舱" loading="lazy" draggable="false"></div>
+        <figcaption><span class="mono">07 · 400 km</span><b>神经映射舱</b><p>白色的、温柔的裁定室。</p></figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="shot__media"><img src="assets/scene/dome-sm.jpg" srcset="assets/scene/dome.jpg 1920w" sizes="(max-width:720px) 82vw, 780px" alt="穹顶" loading="lazy" draggable="false"></div>
+        <figcaption><span class="mono">08 · 35,786 km</span><b>穹顶</b><p>地球在下，方舟在远处，他在中间。</p></figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="shot__media"><img src="assets/scene/dock-sm.jpg" srcset="assets/scene/dock.jpg 1920w" sizes="(max-width:720px) 82vw, 780px" alt="空码头" loading="lazy" draggable="false"></div>
+        <figcaption><span class="mono">09 · 35,786 km</span><b>空码头</b><p>无人停靠的终点站。</p></figcaption>
+      </figure>
+      <figure class="shot">
+        <div class="shot__media"><img src="assets/scene/flashback-sm.jpg" srcset="assets/scene/flashback.jpg 1920w" sizes="(max-width:720px) 82vw, 780px" alt="闪回：旧世界的秋天" loading="lazy" draggable="false"></div>
+        <figcaption><span class="mono">10 · 闪回</span><b>旧世界的秋天</b><p>唯一有温度的光——树叶还没有落完。</p></figcaption>
+      </figure>
+    </div>
+  </div>
+  <p class="rail__hint mono" aria-hidden="true">← 拖动 / 方向键 →</p>
+</section>
+
+<!-- ═══════════ 06 结构 ═══════════ -->
+<section class="sec structure" id="structure">
+  <div class="wrap">
+    <header class="sec__head reveal">
+      <span class="sec__idx mono">06<a>结构</a>STRUCTURE</span>
+      <h2 class="sec__title">三幕，<br>一次垂直的下降。</h2>
+      <p class="sec__lede">表面上他在不断上行；戏剧上，他一直在往更深处走——从一座冷冻舱，走进一个关于「继承」的问题。</p>
+    </header>
+
+    <ol class="acts">
+      <li class="act reveal">
+        <span class="act__no mono">第一幕</span>
+        <h3>冰封破碎</h3>
+        <p class="act__lead">他醒来，世界却不认他。</p>
+        <ul class="act__beats">
+          <li><span class="mono">01</span>五百年后睁眼，第一感知是重力</li>
+          <li><span class="mono">02</span>「身份凭证无法验证」——三次</li>
+          <li><span class="mono">03</span>旧广告残影：永生不是神话</li>
+        </ul>
+      </li>
+      <li class="act reveal">
+        <span class="act__no mono">第二幕</span>
+        <h3>上行</h3>
+        <p class="act__lead">他被告知自己是一件标本。</p>
+        <ul class="act__beats">
+          <li><span class="mono">04</span>被登记为 L-Y1999，七 C 类</li>
+          <li><span class="mono">05</span>冷冻舱进了标本库，与标本并列</li>
+          <li><span class="mono">06</span>「归档」＝不再产生新数据的永生</li>
+        </ul>
+      </li>
+      <li class="act reveal">
+        <span class="act__no mono">第三幕</span>
+        <h3>抉择</h3>
+        <p class="act__lead">一个孩子问了一个 AI 答不出的问题。</p>
+        <ul class="act__beats">
+          <li><span class="mono">07</span>少年出现：它为什么从树上掉下来</li>
+          <li><span class="mono">08</span>他把枫叶交出去，拒绝归档</li>
+          <li><span class="mono">09</span>他悬在摇篮与家之间，手掌摊开</li>
+        </ul>
+      </li>
+    </ol>
+
+    <div class="structure__still reveal">
+      <figure>
+        <img src="assets/still/leafboy.jpg" alt="少年与绫，少年手中握着一片枫叶" loading="lazy">
+        <figcaption class="mono">剧照 / 03′20″ — 少年第一次见到枫叶</figcaption>
+      </figure>
+      <div class="structure__quote">
+        <p>「真正的继承不是数据的拷贝，<br>而是提出问题的能力。」</p>
+        <span class="mono">创作阐述 / STATEMENT</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ 07 制作 ═══════════ -->
+<section class="sec making" id="making">
+  <div class="wrap">
+    <header class="sec__head reveal">
+      <span class="sec__idx mono">07<a>制作</a>MAKING</span>
+      <h2 class="sec__title">一个人写分镜，<br>一群人把它变成影像。</h2>
+      <p class="sec__lede">全片以 AI 生成影像为主体，由人工完成剧本、分镜、提示词、剪辑与声音。以下流程按实际制作顺序排列。</p>
+    </header>
+
+    <ol class="pipe">
+      <li class="pipe__step reveal"><span class="mono">01</span><h4>剧本 / 分镜</h4><p>57 场三幕剧本，逐场拆分镜表，标注景别、机位与情绪落点。</p></li>
+      <li class="pipe__step reveal"><span class="mono">02</span><h4>概念设定</h4><p>三视图、场景空镜、道具设定，共 22 张资产，锁定整片的影调与色卡。</p></li>
+      <li class="pipe__step reveal"><span class="mono">03</span><h4>提示词工程</h4><p>资产提示词 + 镜头提示词双层结构，把画面写成可复现的参数。</p></li>
+      <li class="pipe__step reveal"><span class="mono">04</span><h4>图生视频</h4><p>关键帧交由 Seedance 生成动态镜头，逐条修正闪烁与运镜漂移。</p></li>
+      <li class="pipe__step reveal"><span class="mono">05</span><h4>剪辑 / 调色</h4><p>粗剪、精剪、字幕与特效，统一冷调青蓝与闪回的暖橙两套影调。</p></li>
+      <li class="pipe__step reveal"><span class="mono">06</span><h4>声音</h4><p>声线克隆配音、对口型处理，BGM 与音效铺底。</p></li>
+    </ol>
+
+    <div class="tools reveal">
+      <div class="tools__col">
+        <h5 class="mono">生成 / GENERATION</h5>
+        <ul><li>Seedance 2.0 &amp; 2.5</li><li>DeepSeek Harness · Flash v4.1</li><li>ChatGPT Image 2.5</li><li>Qwen 3.8</li><li>豆包 AI</li></ul>
+      </div>
+      <div class="tools__col">
+        <h5 class="mono">平台 / PLATFORM</h5>
+        <ul><li>即梦 AI</li><li>Liblib</li><li>Updream</li><li>ComflyUI</li></ul>
+      </div>
+      <div class="tools__col">
+        <h5 class="mono">后期 / POST</h5>
+        <ul><li>Adobe Premiere Pro</li><li>Adobe After Effects</li><li>剪映</li></ul>
+      </div>
+    </div>
+    <div class="sources reveal">
+      <h3 class="mono">素材来源 / IMPORTS</h3>
+      <dl>
+        <div>
+          <dt>影像</dt>
+          <dd>由 AI 生成（Seedance 2.0 / 2.5、即梦、ChatGPT Image、豆包等），分镜、剪辑、调色与字幕由人工完成。</dd>
+        </div>
+        <div>
+          <dt>背景音乐</dt>
+          <dd>网络素材：<b>melodysheep</b> —《Ether》/《Mesamelodysheep — Passage》/《Wither Away》。</dd>
+        </div>
+        <div>
+          <dt>音效</dt>
+          <dd>网络素材：<b>Pixabay.com</b>（免费音效库）。</dd>
+        </div>
+        <div>
+          <dt>字体</dt>
+          <dd>网络素材：南卫书法行书简体 · 李旭科书法 v1.4 · 阿里巴巴普惠体 · Gobold Thin。</dd>
+        </div>
+      </dl>
+      <p class="sources__note">音乐、音效与字体均为网络公开素材，版权归原作者所有。本片仅用于毕业设计与教学展示，不作商业用途；如权利人提出异议，将立即替换或移除。</p>
+    </div>
+
+    <div class="prompts">
+      <div class="prompts__head reveal">
+        <h3>提示词卡片</h3>
+        <p class="mono">点击查看 / 从资产描述到镜头描述的完整写法</p>
+      </div>
+      <div class="prompts__grid reveal">
+        <button class="pcard" data-full="assets/prompt/p1.jpg"><img src="assets/prompt/p1.jpg" alt="提示词工作台截图：角色与镜头描述、参考图" loading="lazy"><span class="mono">镜头 01 · 穹顶 · 枫叶悬浮</span></button>
+        <button class="pcard" data-full="assets/prompt/p2.jpg"><img src="assets/prompt/p2.jpg" alt="提示词工作台截图：资产统一描述" loading="lazy"><span class="mono">资产 · 角色描述锁定</span></button>
+        <button class="pcard" data-full="assets/prompt/p3.jpg"><img src="assets/prompt/p3.jpg" alt="提示词工作台截图：场景与光线参数" loading="lazy"><span class="mono">场景 · 影调与光线</span></button>
+      </div>
+    </div>
+
+    <div class="crew reveal">
+      <h3>制作人员 <em class="mono">PRODUCERS</em></h3>
+      <dl>
+        <div><dt>导演 / 分镜设计</dt><dd>钟谢轩</dd></div>
+        <div><dt>AI 生成提示词</dt><dd>钟谢轩 · 朱泓赫</dd></div>
+        <div><dt>设定及概念图生成</dt><dd>蒋龙</dd></div>
+        <div><dt>分镜视频生成</dt><dd>邵新林</dd></div>
+        <div><dt>视频剪辑</dt><dd>朱泓赫</dd></div>
+        <div><dt>指导老师</dt><dd>唐蒋兴 · 熊希培</dd></div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ 08 正片 ═══════════ -->
+<section class="sec film" id="film">
+  <div class="wrap wrap--wide">
+    <header class="sec__head reveal">
+      <span class="sec__idx mono">08<a>正片</a>THE FILM</span>
+      <h2 class="sec__title">天梯挽歌</h2>
+      <p class="sec__lede">全片 05′51″ · 1080P 母版 · 中文对白与字幕</p>
+    </header>
+
+    <div class="player reveal">
+      <video id="filmVideo" controls preload="metadata" playsinline poster="assets/still/film-poster.jpg">
+        <source src="assets/video/elegy-720.mp4" type="video/mp4">
+        你的浏览器不支持 HTML5 视频播放。
+      </video>
+      <div class="player__hint mono" aria-hidden="true"><span class="dot"></span>720P 网页版 / 母版 1920×1080</div>
+    </div>
+
+    <div class="chapters reveal">
+      <h3 class="mono">章节 / CHAPTERS</h3>
+      <ul>
+        <li><button data-t="0"><span class="mono">00:00</span>冰封破碎</button></li>
+        <li><button data-t="70"><span class="mono">01:10</span>片名卡</button></li>
+        <li><button data-t="150"><span class="mono">02:30</span>「真的算活着吗」</button></li>
+        <li><button data-t="156"><span class="mono">02:36</span>轿厢 · 上行</button></li>
+        <li><button data-t="182"><span class="mono">03:02</span>旧书与枫叶</button></li>
+        <li><button data-t="200"><span class="mono">03:20</span>少年与枫叶</button></li>
+        <li><button data-t="234"><span class="mono">03:54</span>摇篮与家</button></li>
+        <li><button data-t="252"><span class="mono">04:12</span>手掌摊开</button></li>
+        <li><button data-t="260"><span class="mono">04:20</span>签约闪回</button></li>
+        <li><button data-t="312"><span class="mono">05:12</span>片尾与制作</button></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════ 09 尾声 ═══════════ -->
+<section class="coda" id="coda">
+  <div class="coda__bg" aria-hidden="true">
+    <img src="assets/still/hand.jpg" alt="" loading="lazy">
+  </div>
+  <div class="coda__inner">
+    <p class="coda__eyebrow mono">09 — 尾声 / CODA</p>
+    <h2 class="coda__quote">它为什么会<br><em>从树上掉下来？</em></h2>
+    <p class="coda__text">他悬在摇篮与家之间，手掌摊开——曾经握着它的地方，什么也没有留下。<br>而那个关于「坠落」的问题，已经随着少年飘向了很远的地方。</p>
+    <div class="coda__acts">
+      <a class="btn" href="#film">再看一次正片<span>05:51</span></a>
+      <a class="btn btn--ghost" href="#hero">回到起点<span>0 m</span></a>
+    </div>
+  </div>
+  <div class="credit-strip mono">
+    <span>天梯挽歌 ELEVATOR ELEGY</span>
+    <span>毕业设计作品 · 2026</span>
+    <span>导演 钟谢轩</span>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap wrap--wide foot__grid">
+    <div class="foot__brand">
+      <span class="bar__glyph">天</span>
+      <p class="mono">ELEVATOR ELEGY · AI 动画短片<br>2026 · 毕业设计作品</p>
+    </div>
+    <nav class="foot__nav">
+      <a href="#prologue">序章</a><a href="#ladder">天梯</a><a href="#cast">人物</a><a href="#motifs">意象</a><a href="#locations">场景</a><a href="#structure">结构</a><a href="#making">制作</a><a href="#film">正片</a>
+    </nav>
+    <p class="foot__legal">本片为毕业设计作品，全部影像由 AI 辅助生成并经由人工编剧、分镜、剪辑与声音制作完成。<br>片中的背景音乐、音效与字体均为网络公开素材，版权归原作者（melodysheep、Pixabay 及各字体厂商）所有，仅用于教学与非商业展示。</p>
+  </div>
+</footer>
+
+<dialog class="lightbox" id="lightbox">
+  <button class="lightbox__close mono" aria-label="关闭">ESC · 关闭</button>
+  <img alt="提示词卡片大图">
+</dialog>
+
+<script src="assets/js/site.js" defer></script>
+</body>
+</html>
